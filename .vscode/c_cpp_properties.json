@@ -1,0 +1,40 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/owuraku/school_workspace/devel/include/**",
+        "/home/owuraku/ros_workspace/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/owuraku/school_workspace/src/navigation/amcl/include/**",
+        "/home/owuraku/school_workspace/src/navigation/base_local_planner/include/**",
+        "/home/owuraku/school_workspace/src/navigation/carrot_planner/include/**",
+        "/home/owuraku/ros_workspace/src/chatter/include/**",
+        "/home/owuraku/school_workspace/src/navigation/clear_costmap_recovery/include/**",
+        "/home/owuraku/school_workspace/src/navigation/costmap_2d/include/**",
+        "/home/owuraku/school_workspace/src/navigation/dwa_local_planner/include/**",
+        "/home/owuraku/school_workspace/src/navigation/global_planner/include/**",
+        "/home/owuraku/school_workspace/src/navigation/map_server/include/**",
+        "/home/owuraku/school_workspace/src/navigation/move_base/include/**",
+        "/home/owuraku/school_workspace/src/navigation/move_slow_and_clear/include/**",
+        "/home/owuraku/school_workspace/src/navigation/nav_core/include/**",
+        "/home/owuraku/school_workspace/src/navigation/navfn/include/**",
+        "/home/owuraku/school_workspace/src/navigation/rotate_recovery/include/**",
+        "/home/owuraku/ros_workspace/src/turtlebot3_simulations/turtlebot3_fake/include/**",
+        "/home/owuraku/ros_workspace/src/turtlebot3_simulations/turtlebot3_gazebo/include/**",
+        "/home/owuraku/ros_workspace/src/turtlebot3/turtlebot3_slam/include/**",
+        "/home/owuraku/school_workspace/src/navigation/voxel_grid/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

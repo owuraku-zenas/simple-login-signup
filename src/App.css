@@ -28,11 +28,55 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.login {
+  padding: 10px;
+  width: 60%;
+  max-width: 500px;
+}
+
+.login h1 {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.login form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.login input {
+  border: none;
+  border-bottom: 1px solid #ccc;
+  background-color: transparent;
+  color: white;
+  padding: 5px;
+  padding-left: 10px;
+  width: 90%;
+  font-size: large;
+}
+
+button {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
+  width: 100%;
+  margin-top: 10px;
+  height: 40px;
+  font-size: large;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.login p {
+  color: white;
+  font-size: large;
+  margin-top: 10px;
+  cursor: pointer;
 }
